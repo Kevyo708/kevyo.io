@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi primera página web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .contenedor {
+            max-width: 600px;
+            margin: 100px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #0077cc;
+        }
+
+        button {
+            background-color: #0077cc;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>¡Hola mundo! 🌎</h1>
+        <p>Esta es mi primera página web estática.</p>
+        <p>Está hecha con HTML, CSS y JavaScript.</p>
+
+        <button onclick="saludar()">Haz clic aquí</button>
+
+        <footer>
+            <p>Creado por mí 😎</p>
+        </footer>
+    </div>
+
+    <script>
+        function saludar() {
+            alert("¡Gracias por visitar mi página!");
+        }
+    </script>
+
+</body>
+</html>
